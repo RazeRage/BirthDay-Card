@@ -2,7 +2,7 @@ var canvas = new fabric.Canvas('myCanvas');
 var x = document.getElementById("myAudio");
 
 function new_image() {
-    fabric.Image.fromURL("Birthdayimage.jpg", function (Img) {
+    fabric.Image.fromURL("BirthdayImage.jpg", function (Img) {
         player_object = Img;
         player_object.scaleToWidth(700);
         player_object.scaleToHeight(510);
